@@ -5,11 +5,10 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
-#
 
 require 'securerandom'
 
-15.times do
+75.times do
   Post.create(
     :title => "My Post #{SecureRandom.hex(2)}",
     :author => SecureRandom.hex(6),

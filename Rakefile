@@ -3,4 +3,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-EndlessPage::Application.load_tasks
+EndlessKaminari::Application.load_tasks
